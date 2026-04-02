@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Bajracharya | Creative Developer Portfolio</title>
+    <meta name="description" content="Based in Bhaktapur, Nepal. Focused on building high-performance web applications with a focus on minimalist aesthetics and user-centric design.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="noise-overlay"></div>
+        <div class="glow-orb"></div>
+        
+        <!-- Dynamic Navbar -->
+        <nav class="nav-container">
+            <div class="nav-bar">
+                <a href="#work">Work</a>
+                <a href="#skills">Tools</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Bento Hero -->
+        <section class="bento-hero">
+            <div class="hero-main">
+                <p class="hero-subtitle">Creative Developer</p>
+                <h1 class="hero-title">
+                    ARYAN <br>
+                    <span class="gradient-text">BAJRACHARYA</span>
+                </h1>
+                <p class="hero-desc">
+                    Based in Bhaktapur, Nepal. Focused on building high-performance web applications with a focus on minimalist aesthetics and user-centric design.
+                </p>
+                <div class="hero-actions">
+                    <a href="#work" class="contact-button">Discover Work</a>
+                    <a href="#contact" class="btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stats-header">
+                    <span class="expertise-tag">Expertise</span>
+                    <span class="dot dot-g"></span>
+                </div>
+                <h3 class="stats-title">Bridging the gap between code and design.</h3>
+                <div class="skills-mini-grid">
+                    <span>Next.js 15</span>
+                    <span>Figma</span>
+                    <span>TypeScript</span>
+                    <span>Tailwind</span>
+                    <span>Node.js</span>
+                </div>
+            </div>
+
+            <div class="hero-spotlight">
+                <img src="images/nextstore.png" alt="Spotlight" class="spotlight-img">
+                <div class="spotlight-content">
+                    <span class="featured-badge">Featured</span>
+                    <h4 class="spotlight-title">NextStore E-com</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Works -->
+        <section id="work" class="section container">
+            <div class="work-header">
+                <div>
+                    <span class="section-subtitle">Selected</span>
+                    <h2 class="section-title left-align">Portfolio</h2>
+                </div>
+                <p class="work-header-desc">A curated collection of projects highlighting visual excellence and technical precision.</p>
+            </div>
+            
+            <div class="work-grid">
+                <!-- Project 1 -->
+                <div class="work-card">
+                    <img src="images/nextstore.png" alt="NextStore" class="work-img">
+                    <div class="work-card-content">
+                        <span class="project-tag">Next.js</span>
+                        <h3 class="project-title">NextStore</h3>
+                        <p class="project-desc">Performance first commerce.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="work-card">
+                    <img src="images/novaui.png" alt="NovaUI" class="work-img">
+                    <div class="work-card-content">
+                        <span class="project-tag">Figma</span>
+                        <h3 class="project-title">NovaUI</h3>
+                        <p class="project-desc">Modern design system.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="work-card">
+                    <img src="images/flowstate.png" alt="FlowState" class="work-img">
+                    <div class="work-card-content">
+                        <span class="project-tag">TS + Node</span>
+                        <h3 class="project-title">FlowState</h3>
+                        <p class="project-desc">Focus & Productivity.</p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="work-card">
+                    <img src="images/pixelmint.png" alt="PixelMint" class="work-img">
+                    <div class="work-card-content">
+                        <span class="project-tag">Web3</span>
+                        <h3 class="project-title">PixelMint</h3>
+                        <p class="project-desc">Next-gen NFT platform.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="skills" class="section container">
+            <div class="tools-container">
+                <h2 class="section-title">The Toolkit</h2>
+                <p class="tools-desc">Leveraging modern technologies to build scalable web products.</p>
+                <div class="skills-grid">
+                    <div class="skill-item">Next.js 15</div>
+                    <div class="skill-item">Figma</div>
+                    <div class="skill-item">TypeScript</div>
+                    <div class="skill-item">Tailwind</div>
+                    <div class="skill-item">Node.js</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">UI/UX</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section container contact-section">
+            <h2 class="contact-title">
+                LET'S <br>
+                <span class="gradient-text">CONNECT.</span>
+            </h2>
+            <div class="contact-links">
+                <a href="mailto:aryan@example.com" class="btn-secondary mail-btn">Email Me</a>
+                <a href="https://linkedin.com" target="_blank" class="btn-secondary">LinkedIn</a>
+                <a href="https://github.com" target="_blank" class="btn-secondary">GitHub</a>
+            </div>
+        </section>
+
+        <footer class="container footer">
+            <p class="footer-text">© <span id="year"></span> Aryan Bajracharya — Built for the future</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
